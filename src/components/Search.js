@@ -17,7 +17,7 @@ const Search = () => {
 	};
 
 	return (
-		<form onSubmit={handleFetchMovies}>
+		<form onSubmit={handleFetchMovies} className="search-form">
 			<SearchInput value={value} onChange={handleOnChange} />
 			<SearchButton />
 		</form>
